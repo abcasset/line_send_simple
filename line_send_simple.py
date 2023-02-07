@@ -66,7 +66,7 @@ url = "https://notify-api.line.me/api/notify"
 file = {'imageFile':open(grim_file,'rb')}
 file = None
 
-LINE_ACCESS_TOKEN =  f_LINE_ACCESS_TOKEN('TT')
+LINE_ACCESS_TOKEN =  gdic_midas_sec_to_token['TT']
 
 text_data = ({ 'message':'도착여부 테스트 확인(이천주 발송)' })
 LINE_HEADERS = {"Authorization":"Bearer "+LINE_ACCESS_TOKEN}
